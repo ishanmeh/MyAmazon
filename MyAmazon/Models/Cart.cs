@@ -13,6 +13,6 @@ namespace MyAmazon.Models
         public int Quantity { get; set; }
         public float TotalPrice { get; set; }
         public int UserId { get; set; }
-        //public bool CheckoutIndicator { get; set; }
+        public bool CheckoutIndicator { get; set; }
     }
 }
