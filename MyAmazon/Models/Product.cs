@@ -11,6 +11,6 @@ namespace MyAmazon.Models
         public Category category { get; set; }
         public int CategoryId {get;set;}
         public string ProductName { get; set; }
-        //public float Price { get; set; }
+        public float Price { get; set; }
     }
 }
